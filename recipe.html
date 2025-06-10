@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Culinary Haven - Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <h1>Visual Bites</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipe.html" aria-current="page">Recipes</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <br><br><br><br>
+
+  <h2>Categories</h2>
+
+  <!-- Category Cards -->
+  <section class="categories">
+    <div class="card"><img src="All recipe.jpeg" alt="All recipes"><h3>All Recipes</h3></div>
+    <div class="card"><img src="breakfast.jpeg" alt="Breakfast"><h3>Breakfast</h3></div>
+    <div class="card"><img src="lunch.jpeg" alt="Lunch"><h3>Lunch</h3></div>
+    <div class="card"><img src="dessert.jpeg" alt="Dessert"><h3>Dessert</h3></div>
+    <div class="card"><img src="meat.jpeg" alt="Meat"><h3>Meat</h3></div>
+    <div class="card"><img src="vegan.jpeg" alt="Vegan"><h3>Vegan</h3></div>
+  </section>
+
+  <!-- Recipe Grid -->
+  <div class="recipe-grid">
+
+<div class="recipe-card" data-category="vegan">
+  <img src="Quinoa Salad.jpeg" alt="Vegan Quinoa Salad Bowl">
+  <div class="recipe-info">
+    <h3>Quinoa Salad Bowl</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 25 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Vegan</p>
+<button class="view-recipe-btn">View Recipe</button>
+    
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup quinoa (rinsed)</li>
+        <li>2 cups water or vegetable broth</li>
+        <li>1/2 cup cherry tomatoes (halved)</li>
+        <li>1/2 cucumber (diced)</li>
+        <li>1/4 cup red onion (finely chopped)</li>
+        <li>1/4 cup fresh parsley (chopped)</li>
+        <li>2 tbsp olive oil</li>
+        <li>1 tbsp lemon juice</li>
+        <li>Salt and pepper to taste</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Cook quinoa in water or broth for 15 mins, then let cool.</label><br>
+      <label><input type="checkbox"> In a bowl, combine cooked quinoa, tomatoes, cucumber, onion, and parsley.</label><br>
+      <label><input type="checkbox"> Whisk olive oil, lemon juice, salt, and pepper in a small bowl.</label><br>
+      <label><input type="checkbox"> Pour dressing over salad and toss to combine.</label><br>
+      <label><input type="checkbox"> Chill for 10 mins before serving for best flavor.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="vegan">
+  <img src= "avocado.webp" alt="Vegan Chickpea Avocado Sandwich">
+  <div class="recipe-info">
+    <h3>Chickpea Avocado Sandwich</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Vegan</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 ripe avocado</li>
+        <li>1 can (15 oz) chickpeas, drained & rinsed</li>
+        <li>1 tbsp lemon juice</li>
+        <li>1 tbsp vegan mayo (optional)</li>
+        <li>1/4 cup celery (finely chopped)</li>
+        <li>1/4 cup red onion (finely chopped)</li>
+        <li>1/2 tsp garlic powder</li>
+        <li>Salt & pepper to taste</li>
+        <li>4 slices whole grain bread</li>
+        <li>Lettuce or spinach leaves</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> In a bowl, mash chickpeas with a fork until chunky.</label><br>
+      <label><input type="checkbox"> Add avocado, lemon juice, and vegan mayo (if using); mash and mix.</label><br>
+      <label><input type="checkbox"> Stir in celery, onion, garlic powder, salt, and pepper.</label><br>
+      <label><input type="checkbox"> Toast bread if desired and spread chickpea mix onto slices.</label><br>
+      <label><input type="checkbox"> Add lettuce or spinach and top with remaining bread slices. Serve!</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="vegan">
+  <img src="curry.jpg" alt="Vegan Coconut Chickpea Curry">
+  <div class="recipe-info">
+    <h3>Coconut Chickpea Curry</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 30 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Vegan</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 tbsp olive oil</li>
+        <li>1 onion (diced)</li>
+        <li>2 cloves garlic (minced)</li>
+        <li>1 tbsp curry powder</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 can chickpeas (15 oz), drained</li>
+        <li>1 can coconut milk (14 oz)</li>
+        <li>1/2 cup diced tomatoes</li>
+        <li>Salt and pepper to taste</li>
+        <li>Fresh cilantro (optional)</li>
+        <li>Cooked rice, to serve</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Heat olive oil in a pan and sauté onion until translucent.</label><br>
+      <label><input type="checkbox"> Add garlic, curry powder, and cumin; cook for 1 min.</label><br>
+      <label><input type="checkbox"> Stir in chickpeas, tomatoes, and coconut milk.</label><br>
+      <label><input type="checkbox"> Simmer for 15–20 mins until thickened.</label><br>
+      <label><input type="checkbox"> Season with salt and pepper, garnish with cilantro, and serve over rice.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="vegan">
+  <img src="tomato.jpg" alt="Vegan Creamy Tomato Pasta">
+  <div class="recipe-info">
+    <h3>Creamy Vegan Tomato Pasta</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 20 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Vegan</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>200g pasta (penne or fusilli)</li>
+        <li>1 tbsp olive oil</li>
+        <li>2 cloves garlic (minced)</li>
+        <li>1/2 onion (chopped)</li>
+        <li>1 cup tomato sauce</li>
+        <li>1/4 cup coconut cream or cashew cream</li>
+        <li>1 tsp dried basil</li>
+        <li>Salt and pepper to taste</li>
+        <li>Fresh parsley (optional)</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Cook pasta according to package directions. Drain and set aside.</label><br>
+      <label><input type="checkbox"> In a pan, heat olive oil and sauté onion and garlic.</label><br>
+      <label><input type="checkbox"> Add tomato sauce, cream, and basil; simmer for 5 mins.</label><br>
+      <label><input type="checkbox"> Season with salt and pepper, then toss in cooked pasta.</label><br>
+      <label><input type="checkbox"> Garnish with fresh parsley and serve warm.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="vegan">
+  <img src="smoothie.jpg" alt="Vegan Berry Banana Smoothie Bowl">
+  <div class="recipe-info">
+    <h3>Berry Banana Smoothie Bowl</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 10 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Vegan</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 banana (frozen)</li>
+        <li>1/2 cup frozen mixed berries</li>
+        <li>1/4 cup plant-based milk (almond, soy, etc.)</li>
+        <li>1 tbsp chia seeds</li>
+        <li>Toppings: granola, sliced banana, berries, coconut flakes</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> In a blender, combine banana, berries, and plant milk.</label><br>
+      <label><input type="checkbox"> Blend until thick and creamy. Add more milk if needed.</label><br>
+      <label><input type="checkbox"> Pour into a bowl and smooth the top with a spoon.</label><br>
+      <label><input type="checkbox"> Sprinkle with chia seeds and your favorite toppings.</label><br>
+      <label><input type="checkbox"> Serve immediately and enjoy fresh!</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="breakfast">
+  <img src="egg.jpg" alt="Classic Bacon and Eggs">
+  <div class="recipe-info">
+    <h3>Classic Bacon & Eggs</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Breakfast</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>2 eggs</li>
+        <li>3 strips of bacon</li>
+        <li>1 tsp butter or oil</li>
+        <li>Salt and pepper to taste</li>
+        <li>Toast (optional)</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Cook bacon in a skillet over medium heat until crispy. Set aside.</label><br>
+      <label><input type="checkbox"> In the same skillet, reduce heat and add butter.</label><br>
+      <label><input type="checkbox"> Crack eggs into the pan and cook as desired (sunny-side, scrambled, etc.).</label><br>
+      <label><input type="checkbox"> Season with salt and pepper. Serve with bacon and toast.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="breakfast">
+  <img src="ham.jpg" alt="Ham and Cheese Omelette">
+  <div class="recipe-info">
+    <h3>Ham & Cheese Omelette</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 10 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Breakfast</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>2 eggs</li>
+        <li>1/4 cup chopped ham</li>
+        <li>1/4 cup shredded cheese</li>
+        <li>1 tbsp milk</li>
+        <li>Salt and pepper</li>
+        <li>1 tsp butter</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Beat eggs with milk, salt, and pepper.</label><br>
+      <label><input type="checkbox"> Heat butter in a skillet and pour in egg mixture.</label><br>
+      <label><input type="checkbox"> Once eggs start to set, add ham and cheese on one side.</label><br>
+      <label><input type="checkbox"> Fold omelette and cook for 1–2 more minutes. Serve hot.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="breakfast">
+  <img src="pancake.jpg" alt="Buttermilk Pancakes">
+  <div class="recipe-info">
+    <h3>Buttermilk Pancakes</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 25 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Breakfast</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup all-purpose flour</li>
+        <li>1 tbsp sugar</li>
+        <li>1 tsp baking powder</li>
+        <li>1/2 tsp baking soda</li>
+        <li>1/4 tsp salt</li>
+        <li>1 egg</li>
+        <li>1 cup buttermilk</li>
+        <li>2 tbsp melted butter</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Mix dry ingredients in a bowl.</label><br>
+      <label><input type="checkbox"> In another bowl, whisk egg, buttermilk, and melted butter.</label><br>
+      <label><input type="checkbox"> Combine wet and dry ingredients until just mixed.</label><br>
+      <label><input type="checkbox"> Cook pancakes on greased skillet ~2 mins each side.</label><br>
+      <label><input type="checkbox"> Serve with syrup or toppings of choice.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="breakfast">
+  <img src="sandwich.jpg" alt="Breakfast Sandwich">
+  <div class="recipe-info">
+    <h3>Breakfast Sandwich</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Breakfast</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 English muffin or sandwich bun</li>
+        <li>1 egg</li>
+        <li>1 slice cheese</li>
+        <li>1 slice ham or sausage patty</li>
+        <li>1 tsp butter</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Toast the muffin or bun.</label><br>
+      <label><input type="checkbox"> Cook egg in a ring mold or small pan.</label><br>
+      <label><input type="checkbox"> Heat ham/sausage and melt cheese on top.</label><br>
+      <label><input type="checkbox"> Assemble sandwich with egg, meat, and cheese between buns.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="breakfast">
+  <img src="yogurt.jpg" alt="Yogurt and Granola Parfait">
+  <div class="recipe-info">
+    <h3>Yogurt & Granola Parfait</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 5 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Breakfast</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup Greek yogurt</li>
+        <li>1/2 cup granola</li>
+        <li>1/2 cup mixed berries</li>
+        <li>1 tbsp honey (optional)</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> In a glass, layer yogurt, granola, and berries.</label><br>
+      <label><input type="checkbox"> Repeat layers until glass is full.</label><br>
+      <label><input type="checkbox"> Drizzle with honey if desired. Serve chilled.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="lunch">
+  <img src="wrap.jpeg" alt="Grilled Chicken Wrap">
+  <div class="recipe-info">
+    <h3>Grilled Chicken Wrap</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 20 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Lunch</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 grilled chicken breast, sliced</li>
+        <li>1 large tortilla wrap</li>
+        <li>1/4 cup shredded lettuce</li>
+        <li>1/4 cup diced tomatoes</li>
+        <li>2 tbsp ranch or hummus</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Lay out the tortilla and spread ranch or hummus.</label><br>
+      <label><input type="checkbox"> Add lettuce, tomatoes, and chicken slices.</label><br>
+      <label><input type="checkbox"> Wrap tightly and slice in half. Serve warm or chilled.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="lunch">
+  <img src="caprese.jpg" alt="Caprese Sandwich">
+  <div class="recipe-info">
+    <h3>Caprese Sandwich</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 10 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Lunch</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>2 slices ciabatta bread</li>
+        <li>1 large tomato, sliced</li>
+        <li>4 slices fresh mozzarella</li>
+        <li>Fresh basil leaves</li>
+        <li>1 tbsp balsamic glaze</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Toast the bread lightly if desired.</label><br>
+      <label><input type="checkbox"> Layer tomato, mozzarella, and basil.</label><br>
+      <label><input type="checkbox"> Drizzle with balsamic glaze and close sandwich. Serve fresh.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="lunch">
+  <img src="bowl.jpg" alt="Veggie Stir-Fry Rice Bowl">
+  <div class="recipe-info">
+    <h3>Veggie Stir-Fry Rice Bowl</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 25 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Lunch</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup cooked rice</li>
+        <li>1/2 cup broccoli florets</li>
+        <li>1/4 cup bell peppers, sliced</li>
+        <li>1/4 cup carrots, julienned</li>
+        <li>2 tbsp soy sauce</li>
+        <li>1 tsp sesame oil</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Heat sesame oil in a pan over medium heat.</label><br>
+      <label><input type="checkbox"> Stir-fry veggies for 5–7 minutes until tender.</label><br>
+      <label><input type="checkbox"> Add soy sauce and toss with cooked rice. Serve warm.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="lunch">
+  <img src="cups.jpg"Tuna Salad Lettuce Cups">
+  <div class="recipe-info">
+    <h3>Tuna Salad Lettuce Cups</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Lunch</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 can tuna, drained</li>
+        <li>2 tbsp mayo or Greek yogurt</li>
+        <li>1 tbsp relish or chopped pickles</li>
+        <li>1/4 cup diced celery</li>
+        <li>4 to 6 romaine or butter lettuce leaves</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> In a bowl, mix tuna, mayo, celery, and relish.</label><br>
+      <label><input type="checkbox"> Spoon tuna salad into lettuce leaves.</label><br>
+      <label><input type="checkbox"> Garnish with pepper or herbs if desired. Serve chilled.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="lunch">
+  <img src="pizza.jpg" alt="Pita Pizza">
+  <div class="recipe-info">
+    <h3>Pita Pizza</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Lunch</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 whole wheat pita</li>
+        <li>1/4 cup marinara sauce</li>
+        <li>1/4 cup shredded mozzarella</li>
+        <li>Favorite toppings (e.g., mushrooms, olives, pepperoni)</li>
+        <li>1 tsp olive oil</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Preheat oven to 375°F (190°C).</label><br>
+      <label><input type="checkbox"> Spread marinara on pita, then add cheese and toppings.</label><br>
+      <label><input type="checkbox"> Drizzle with olive oil and bake for 10 minutes. Serve hot.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="dessert">
+  <img src="mug.jpg" alt="Chocolate Mug Cake">
+  <div class="recipe-info">
+    <h3>Chocolate Mug Cake</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 5 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Dessert</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1/4 cup all-purpose flour</li>
+        <li>2 tbsp cocoa powder</li>
+        <li>1/4 tsp baking powder</li>
+        <li>2 tbsp sugar</li>
+        <li>1/4 cup milk</li>
+        <li>2 tbsp vegetable oil</li>
+        <li>1/4 tsp vanilla extract</li>
+        <li>Optional: chocolate chips</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Mix all ingredients in a microwave-safe mug.</label><br>
+      <label><input type="checkbox"> Stir until smooth and add chocolate chips if desired.</label><br>
+      <label><input type="checkbox"> Microwave on high for 1 minute. Let cool slightly before serving.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="dessert">
+  <img src="strawberry.jpg" alt="Strawberry Shortcake Parfait">
+  <div class="recipe-info">
+    <h3>Strawberry Shortcake Parfait</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 10 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Dessert</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup diced strawberries</li>
+        <li>1 tbsp sugar</li>
+        <li>1 cup whipped cream</li>
+        <li>1 cup pound cake, cubed</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Toss strawberries with sugar and let sit 5 mins.</label><br>
+      <label><input type="checkbox"> In a glass, layer pound cake, strawberries, and whipped cream.</label><br>
+      <label><input type="checkbox"> Repeat layers and top with extra strawberries. Serve chilled.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="dessert">
+  <img src="bites.jpg" alt="Peanut Butter Banana Bites">
+  <div class="recipe-info">
+    <h3>Peanut Butter Banana Bites</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 15 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Dessert</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>2 ripe bananas</li>
+        <li>1/4 cup peanut butter</li>
+        <li>1/2 cup dark chocolate chips</li>
+        <li>1 tsp coconut oil</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Slice bananas and make small peanut butter sandwiches with them.</label><br>
+      <label><input type="checkbox"> Freeze for 10 minutes.</label><br>
+      <label><input type="checkbox"> Melt chocolate with coconut oil and dip bites. Freeze until set.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="dessert">
+  <img src="mini.jpg" alt="Mini Cheesecake Cups">
+  <div class="recipe-info">
+    <h3>Mini Cheesecake Cups</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 30 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Dessert</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup graham cracker crumbs</li>
+        <li>3 tbsp melted butter</li>
+        <li>8 oz cream cheese, softened</li>
+        <li>1/4 cup sugar</li>
+        <li>1 egg</li>
+        <li>1/2 tsp vanilla extract</li>
+        <li>Fruit or jam for topping</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Preheat oven to 325°F (165°C). Line a muffin tin with liners.</label><br>
+      <label><input type="checkbox"> Mix crumbs with butter and press into bottoms of liners.</label><br>
+      <label><input type="checkbox"> Blend cream cheese, sugar, egg, and vanilla until smooth. Pour over crusts.</label><br>
+      <label><input type="checkbox"> Bake 18–20 minutes. Chill and top with fruit or jam before serving.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="dessert">
+  <img src="mousse.jpeg" alt="Chocolate Mousse">
+  <div class="recipe-info">
+    <h3>Chocolate Mousse</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 20 mins + chill</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Dessert</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 cup semi-sweet chocolate chips</li>
+        <li>3 eggs, separated</li>
+        <li>1/4 cup sugar</li>
+        <li>1 cup heavy cream</li>
+        <li>1 tsp vanilla extract</li>
+        <li>Pinch of salt</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Melt chocolate chips and let cool slightly.</label><br>
+      <label><input type="checkbox"> Whisk egg yolks with sugar until pale. Stir into melted chocolate.</label><br>
+      <label><input type="checkbox"> Beat egg whites with salt until stiff peaks form. Fold into chocolate mix.</label><br>
+      <label><input type="checkbox"> Whip cream and vanilla to soft peaks. Fold into mixture gently.</label><br>
+      <label><input type="checkbox"> Spoon into cups and chill for at least 2 hours before serving.</label>
+    </div>
+  </div>
+</div>
+
+
+<div class="recipe-card" data-category="meat">
+  <img src="roasted.jpg" alt="Garlic Herb Roast Chicken">
+  <div class="recipe-info">
+    <h3>Garlic Herb Roast Chicken</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 1 hr 30 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Meat</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 whole chicken (4-5 lbs)</li>
+        <li>4 cloves garlic, minced</li>
+        <li>2 tbsp olive oil</li>
+        <li>1 tbsp fresh rosemary, chopped</li>
+        <li>1 tbsp thyme leaves</li>
+        <li>Salt and pepper to taste</li>
+        <li>1 lemon, halved</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Preheat oven to 400°F (200°C).</label><br>
+      <label><input type="checkbox"> Mix garlic, herbs, oil, salt, and pepper. Rub all over chicken and inside cavity.</label><br>
+      <label><input type="checkbox"> Stuff chicken with lemon halves and tie legs together.</label><br>
+      <label><input type="checkbox"> Roast for 1 hr 15 mins or until juices run clear. Rest before carving.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="meat">
+  <img src="pork.jpg" alt="Honey Glazed Pork Chops">
+  <div class="recipe-info">
+    <h3>Honey Glazed Pork Chops</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 35 mins</span>
+      <span><i class="fas fa-fire"></i> Easy</span>
+    </div>
+    <p class="diet-label">Meat</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>4 bone-in pork chops</li>
+        <li>2 tbsp honey</li>
+        <li>2 tbsp soy sauce</li>
+        <li>1 tbsp Dijon mustard</li>
+        <li>1 tbsp olive oil</li>
+        <li>2 cloves garlic, minced</li>
+        <li>Salt and pepper to taste</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Season pork chops with salt and pepper.</label><br>
+      <label><input type="checkbox"> Mix honey, soy sauce, mustard, garlic, and olive oil.</label><br>
+      <label><input type="checkbox"> Heat skillet and sear chops 3 to 4 mins each side.</label><br>
+      <label><input type="checkbox"> Pour glaze over chops and cook until caramelized and fully cooked.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="meat">
+  <img src="spicy.jpg" alt="Spicy Beef Stir Fry">
+  <div class="recipe-info">
+    <h3>Spicy Beef Stir Fry</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 25 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Meat</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 lb flank steak, thinly sliced</li>
+        <li>2 tbsp soy sauce</li>
+        <li>1 tbsp sriracha</li>
+        <li>1 tbsp cornstarch</li>
+        <li>2 tbsp vegetable oil</li>
+        <li>1 bell pepper, sliced</li>
+        <li>1 onion, sliced</li>
+        <li>2 cloves garlic, minced</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Toss beef with soy sauce, sriracha, and cornstarch.</label><br>
+      <label><input type="checkbox"> Heat oil in wok, cook beef until browned, then remove.</label><br>
+      <label><input type="checkbox"> Stir fry garlic, pepper, and onion until soft.</label><br>
+      <label><input type="checkbox"> Return beef to pan, toss everything together and serve hot.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="meat">
+  <img src="lamb.jpg" alt="Lamb Kofta Skewers">
+  <div class="recipe-info">
+    <h3>Lamb Kofta Skewers</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 45 mins</span>
+      <span><i class="fas fa-fire"></i> Medium</span>
+    </div>
+    <p class="diet-label">Meat</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>1 lb ground lamb</li>
+        <li>1 small onion, grated</li>
+        <li>2 cloves garlic, minced</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 tsp ground coriander</li>
+        <li>1/2 tsp chili flakes</li>
+        <li>Salt and pepper to taste</li>
+        <li>Fresh parsley, chopped</li>
+        <li>Skewers (wooden or metal)</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Combine lamb with onion, garlic, spices, and parsley.</label><br>
+      <label><input type="checkbox"> Form into sausage shapes around skewers.</label><br>
+      <label><input type="checkbox"> Preheat grill or pan to medium-high heat.</label><br>
+      <label><input type="checkbox"> Grill skewers for 10 to 12 mins, turning occasionally, until cooked through.</label>
+    </div>
+  </div>
+</div>
+
+<div class="recipe-card" data-category="meat">
+  <img src="brisket.jpg" alt="BBQ Beef Brisket">
+  <div class="recipe-info">
+    <h3>BBQ Beef Brisket</h3>
+    <div class="recipe-meta">
+      <span><i class="fas fa-clock"></i> 6 hrs</span>
+      <span><i class="fas fa-fire"></i> Hard</span>
+    </div>
+    <p class="diet-label">Meat</p>
+    <button class="view-recipe-btn">View Recipe</button>
+
+    <div class="recipe-steps">
+      <h2>Ingredients</h2>
+      <ul class="ingredients-list">
+        <li>4 to 5 lb beef brisket</li>
+        <li>2 tbsp brown sugar</li>
+        <li>1 tbsp smoked paprika</li>
+        <li>1 tbsp garlic powder</li>
+        <li>1 tbsp onion powder</li>
+        <li>1 tsp ground cumin</li>
+        <li>Salt and black pepper to taste</li>
+        <li>1 cup BBQ sauce</li>
+      </ul>
+
+      <h2>Process</h2>
+      <label><input type="checkbox"> Preheat oven or smoker to 275°F (135°C).</label><br>
+      <label><input type="checkbox"> Mix spices into a dry rub and coat brisket generously.</label><br>
+      <label><input type="checkbox"> Place brisket in a roasting pan and cover tightly with foil.</label><br>
+      <label><input type="checkbox"> Cook for 5 to 6 hours until tender; uncover, brush with BBQ sauce, and broil or grill for 5 mins.</label>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+   
+   
+   </div>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Visual Bites</h3>
+        <p>Join our community.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipe.html">Recipes</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Visual Bites. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- Category Filter Script -->
+  <script>
+  
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll('.view-recipe-btn');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const stepsSection = button.nextElementSibling;
+        stepsSection.classList.toggle('active');
+
+        // Change button text depending on state
+        if (stepsSection.classList.contains('active')) {
+          button.textContent = 'Hide Recipe';
+        } else {
+          button.textContent = 'View Recipe';
+        }
+      });
+    });
+  });
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const categoryCards = document.querySelectorAll(".categories .card");
+      const recipeCards = document.querySelectorAll(".recipe-card");
+
+      categoryCards.forEach(card => {
+        card.addEventListener("click", () => {
+          const selectedCategory = card.querySelector("h3").innerText.trim().toLowerCase();
+
+          recipeCards.forEach(recipe => {
+            const recipeCategory = recipe.getAttribute("data-category").toLowerCase();
+
+            if (selectedCategory === "all recipes") {
+              recipe.style.display = "block";
+            } else {
+              recipe.style.display = recipeCategory === selectedCategory ? "block" : "none";
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
